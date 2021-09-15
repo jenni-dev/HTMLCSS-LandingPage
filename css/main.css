@@ -30,11 +30,11 @@ section { display: flex;}
   display: block;
   padding: 6px 12px;
   border: 1px solid #a0a0a0;
-  color: #8598a2
+  color: #8598a2;
   line-height: 1.4;
 }
 .text-light {
-  font-size: 30px
+  font-size: 30px;
   color: #a0a0a0;
 }
 
@@ -46,3 +46,5 @@ color: #faa541;
 font-size: 16px;
 color: #364147;
 }
+.header-nav {border-bottom: 1px #a0a0a0;}
+.brand
