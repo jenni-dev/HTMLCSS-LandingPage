@@ -72,7 +72,7 @@ color: #364147;
   padding: 0;
 }
 .nav-list {
-  padding: 0;
+  padding-left: 0;
   width: 575px;
   margin-top: 10px;
 }
@@ -88,7 +88,7 @@ color: #364147;
   padding: 15px;
   font-size: 18px;
   color: #364147;}
-.account li {font-size: 14px;}
+.account a {font-size: 14px;}
 .profile-pic {height: 60px; width: 60px;}
 .profile-pic img {
   border-radius: 100px;
