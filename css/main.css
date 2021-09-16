@@ -158,23 +158,26 @@ color: #364147;
   margin: 50px 0;
   position: relative;
 }
-full-banner::before {
+.full-banner:before {
   content: "";
   position: absolute;
   border: 1px solid #fff;
   z-index: 1;
-  position: 30px 50px;
+  top: 30px;
+  bottom: 30px;
+  left: 50px;
+  right: 50px;
 }
 .full-banner-image {
   flex: 0 0 58.333333%;
-  background-image: url('..img/vista.jpg')
+  background-image: url(../img/vista.jpg);
   background-size: cover;
-  position: top center;
+  background-position: top center;
   min-height: 400px;
 }
 .full-banner-sidebar {
   flex: 0 0 41.666667%;
-  backround-color: #364147;
+  background-color: #364147;
   text-transform: uppercase;
   padding: 30px;
   color: #fff;
